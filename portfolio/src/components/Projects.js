@@ -9,6 +9,18 @@ export default function Projects() {
       technologies: ["React", "TypeScript", "Vite", "shadcn-ui", "Tailwind CSS", "Modern AI Tools"],
       codeLink: "https://startup-display.lovable.app/"
     },
+    {
+      title: "Daily 20 Game",
+      description: "A game following the 20 questions game, using openai to generate answers and allowing users to ask questions and gues the answer.",
+      technologies: ["Python", "Django", "OPENAI API"],
+      codeLink: "https://github.com/willn12/daily20Game"
+    },
+    {
+      title: "Costco Compas",
+      description: "This was an app I created to get more familiar with MySQL, as well as Python and Flask. This app allows users to create an account to find products at different costco locations. An admin of this app is able to view all tables of the store, including products, employees, categories, locations, and a few more!",
+      technologies: ["Python", "Flask", "MySQL"],
+      codeLink: "https://github.com/willn12/costco-compas"
+    },
     // Add more projects here
   ];
 
