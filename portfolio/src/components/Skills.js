@@ -2,10 +2,10 @@ import '../styles/Skills.css';
 
 export default function Skills() {
   const skills = {
-    "Frontend": ["HTML5", "CSS3", "JavaScript", "React", "Vue.js", "TypeScript"],
-    "Backend": ["Node.js", "Python", "Java", "Express", "Django"],
-    "Database": ["MongoDB", "PostgreSQL", "MySQL"],
-    "Tools": ["Git", "Docker", "AWS", "Firebase"]
+    "Frontend": ["HTML5", "CSS", "JavaScript", "React", "TypeScript", "Tailwind CSS"],
+    "Backend": ["Python", "Java", "Django", "Ruby on Rails", "Supabase"],
+    "Database": ["MariaDB", "PostgreSQL", "MySQL"],
+    "Tools": ["Git", "Jira", "Miro", "Bitbucket"]
   };
 
   return (

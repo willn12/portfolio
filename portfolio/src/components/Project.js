@@ -14,7 +14,7 @@ export default function Project({ title, description, imageUrl, technologies, de
         <div className="project-links">
           {codeLink && (
             <a href={codeLink} target="_blank" rel="noopener noreferrer" className="project-link">
-              View Code
+              View Project
             </a>
           )}
         </div>

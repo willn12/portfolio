@@ -4,11 +4,10 @@ import '../styles/Projects.css';
 export default function Projects() {
   const projects = [
     {
-      title: "Project 1",
-      description: "Description of project 1",
-      technologies: ["React", "Node.js", "MongoDB"],
-      demoLink: "https://demo1.example.com",
-      codeLink: "https://github.com/username/project1"
+      title: "Startup Buddy",
+      description: "Built a web application enabling users to create and showcase startup ideas, while allowing others to join and contribute to their development. Utilized modern AI technologies to enhance user experience and matchmaking.",
+      technologies: ["React", "TypeScript", "Vite", "shadcn-ui", "Tailwind CSS", "Modern AI Tools"],
+      codeLink: "https://startup-display.lovable.app/"
     },
     // Add more projects here
   ];
