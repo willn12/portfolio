@@ -6,7 +6,6 @@ export default function Projects() {
     {
       title: "Project 1",
       description: "Description of project 1",
-      imageUrl: "/path-to-project1-image.jpg",
       technologies: ["React", "Node.js", "MongoDB"],
       demoLink: "https://demo1.example.com",
       codeLink: "https://github.com/username/project1"

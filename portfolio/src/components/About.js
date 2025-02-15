@@ -6,7 +6,7 @@ export default function About() {
       <h2 className="section-title">About Me</h2>
       <div className="about-content">
         <div className="about-image">
-          <img src="/path-to-your-image.jpg" alt="Your Name" />
+          <img src="/will-pic.png" alt="Will's Profile" />
         </div>
         <div className="about-text">
           <p>
@@ -21,7 +21,7 @@ export default function About() {
           </p>
           <div className="about-buttons">
             <a 
-              href="/path-to-your-resume.pdf" 
+              href="/resume.pdf" 
               className="resume-btn"
               target="_blank"
               rel="noopener noreferrer"

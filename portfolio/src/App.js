@@ -15,7 +15,7 @@ function App() {
     <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <main>
-        <Hero />
+        <Hero darkMode={darkMode} />
         <About />
         <Projects />
         <Skills />

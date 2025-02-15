@@ -29,9 +29,8 @@ export default function Contact() {
           <h3>Get in Touch</h3>
           <p>I'm always interested in hearing about new projects and opportunities.</p>
           <div className="contact-details">
-            <p><i className="fas fa-envelope"></i> your.email@example.com</p>
-            <p><i className="fas fa-phone"></i> +1 234 567 890</p>
-            <p><i className="fas fa-map-marker-alt"></i> Your Location</p>
+            <p><i className="fas fa-envelope"></i> nylundwill@gmail.com</p>
+            <p><i className="fas fa-map-marker-alt"></i> Arlington, VA</p>
           </div>
         </div>
         <form className="contact-form" onSubmit={handleSubmit}>

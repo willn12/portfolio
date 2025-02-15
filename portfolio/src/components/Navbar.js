@@ -6,7 +6,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
 
   return (
     <nav className="navbar">
-      <div className="nav-brand">Your Name</div>
+      <div className="nav-brand">Will Nylund</div>
       
       <button className="mobile-menu-btn" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         <span className="hamburger"></span>
@@ -21,8 +21,9 @@ export default function Navbar({ darkMode, setDarkMode }) {
         <button 
           className="theme-toggle"
           onClick={() => setDarkMode(!darkMode)}
+          aria-label="Toggle theme"
         >
-          {darkMode ? '☀️' : '🌙'}
+          {darkMode ? '🌞' : '🌙'}
         </button>
       </div>
     </nav>

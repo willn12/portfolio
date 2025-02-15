@@ -18,8 +18,13 @@
 
 .about-image img {
   width: 100%;
+  max-width: 400px;
+  height: auto;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.2); */
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
 }
 
 .about-text {

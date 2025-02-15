@@ -1,12 +1,28 @@
 import '../styles/Hero.css';
 
-export default function Hero() {
+const Hero = ({ darkMode }) => {
+
   return (
     <section id="home" className="hero">
+      <div className="animation-container">
+        {darkMode ? (
+          <div className="stars">
+            {[...Array(40)].map((_, index) => (
+              <div key={index} className="shooting-star"></div>
+            ))}
+          </div>
+        ) : (
+          <div className="rain">
+            {[...Array(15)].map((_, index) => (
+              <div key={index} className="raindrop"></div>
+            ))}
+          </div>
+        )}
+      </div>
       <div className="hero-content">
-        <h1>Hi, I'm <span className="highlight">Your Name</span></h1>
+        <h1>Hi, I'm <span className="highlight">Will Nylund</span></h1>
         <h2>Full Stack Developer</h2>
-        <p>I create beautiful and functional web applications</p>
+        <p className="hero-description">Crafting innovative web solutions with modern technologies</p>
         <div className="hero-buttons">
           <a href="#projects" className="primary-btn">View My Work</a>
           <a href="#contact" className="secondary-btn">Contact Me</a>
@@ -25,4 +41,6 @@ export default function Hero() {
       </div>
     </section>
   );
-} 
+};
+
+export default Hero; 
